@@ -1,0 +1,24 @@
+ cat /proc/12102/maps 
+00400000-00401000 r--p 00000000 00:28 2110430                            /home/suryansh/Desktop/Projects/KERNEL-HACKING/VIRTUL-MEMORY-Hacking/loop.out
+00401000-00402000 r-xp 00001000 00:28 2110430                            /home/suryansh/Desktop/Projects/KERNEL-HACKING/VIRTUL-MEMORY-Hacking/loop.out
+00402000-00403000 r--p 00002000 00:28 2110430                            /home/suryansh/Desktop/Projects/KERNEL-HACKING/VIRTUL-MEMORY-Hacking/loop.out
+00403000-00404000 r--p 00002000 00:28 2110430                            /home/suryansh/Desktop/Projects/KERNEL-HACKING/VIRTUL-MEMORY-Hacking/loop.out
+00404000-00405000 rw-p 00003000 00:28 2110430                            /home/suryansh/Desktop/Projects/KERNEL-HACKING/VIRTUL-MEMORY-Hacking/loop.out
+24f58000-24f79000 rw-p 00000000 00:00 0                                  [heap]
+7f0d5bb0c000-7f0d5bb0f000 rw-p 00000000 00:00 0 
+7f0d5bb0f000-7f0d5bb10000 r--p 00000000 00:28 5112643                    /usr/lib64/libc.so.6
+7f0d5bb10000-7f0d5bc7f000 r-xp 00001000 00:28 5112643                    /usr/lib64/libc.so.6
+7f0d5bc7f000-7f0d5bcf4000 r--p 00170000 00:28 5112643                    /usr/lib64/libc.so.6
+7f0d5bcf4000-7f0d5bcf8000 r--p 001e5000 00:28 5112643                    /usr/lib64/libc.so.6
+7f0d5bcf8000-7f0d5bcfa000 rw-p 001e9000 00:28 5112643                    /usr/lib64/libc.so.6
+7f0d5bcfa000-7f0d5bd04000 rw-p 00000000 00:00 0 
+7f0d5bd25000-7f0d5bd27000 r--p 00000000 00:00 0                          [vvar]
+7f0d5bd27000-7f0d5bd29000 r--p 00000000 00:00 0                          [vvar_vclock]
+7f0d5bd29000-7f0d5bd2b000 r-xp 00000000 00:00 0                          [vdso]
+7f0d5bd2b000-7f0d5bd2c000 r--p 00000000 00:28 5112640                    /usr/lib64/ld-linux-x86-64.so.2
+7f0d5bd2c000-7f0d5bd55000 r-xp 00001000 00:28 5112640                    /usr/lib64/ld-linux-x86-64.so.2
+7f0d5bd55000-7f0d5bd60000 r--p 0002a000 00:28 5112640                    /usr/lib64/ld-linux-x86-64.so.2
+7f0d5bd60000-7f0d5bd62000 r--p 00035000 00:28 5112640                    /usr/lib64/ld-linux-x86-64.so.2
+7f0d5bd62000-7f0d5bd64000 rw-p 00037000 00:28 5112640                    /usr/lib64/ld-linux-x86-64.so.2
+7ffc3de7f000-7ffc3dea0000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
