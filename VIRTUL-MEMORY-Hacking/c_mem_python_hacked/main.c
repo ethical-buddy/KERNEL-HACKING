@@ -7,6 +7,7 @@
  * address of the new duplcated string
  *
  * Return: EXIT_FAILURE if malloc failed. Otherwise EXIT_SUCCESS
+ * Kanishka
  */
 int main(void)
 {
