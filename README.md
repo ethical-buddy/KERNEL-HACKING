@@ -1,2 +1,2 @@
 # KERNEL-HACKING
-Kanishka
+Kanishka contributed to this repo first
